@@ -1,0 +1,1 @@
+Lekegrind for SQL-gruppen i faggruppe for Språk og Paradigmer 2017
