@@ -1,19 +1,14 @@
-SELECT *
-FROM Person p
-INNER JOIN Medlem m
-ON p.id = m.id
-WHERE aktiv = 1;
-
-
--- Også mulig ved mer avanserte sub-queries:
-
-WITH Medlemmer AS (
-  SELECT *
-  FROM Medlem
-  WHERE aktiv = 1
+WITH AntallOrdrePerMedlem AS (
+  SELECT o.medlemid, SUM(ol.antall) AS antall
+  FROM Ordrelinje ol
+  INNER JOIN Ordre o
+    ON o.id = ol.ordreid
+  GROUP BY o.medlemid
 )
 
-SELECT *
-FROM Person p
-INNER JOIN Medlemmer m
-ON p.id = m.id;
+SELECT m.navn
+FROM Medlem m
+INNER JOIN AntallOrdrePerMedlem ant
+ON m.id = ant.medlemid
+WHERE m.aktiv = 1
+AND ant.antall >= 5;
