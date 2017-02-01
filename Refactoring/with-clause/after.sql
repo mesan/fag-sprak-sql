@@ -1,5 +1,5 @@
 SELECT *
-FROM Person p,
+FROM Person p
 INNER JOIN Medlem m
 ON p.id = m.id
 WHERE aktiv = 1;
@@ -14,6 +14,6 @@ WITH Medlemmer AS (
 )
 
 SELECT *
-FROM Person p,
+FROM Person p
 INNER JOIN Medlemmer m
 ON p.id = m.id;
