@@ -1,1 +1,6 @@
 .idea/
+/Database/Database/*
+.DS_Store
+Database/.DS_Store
+Database/Database/
+Database/logfile
