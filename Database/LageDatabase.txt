@@ -1,0 +1,8 @@
+Hvordan opprette Postgres database i dette prosjektet:
+
+1. Last ned Postgres.
+2. Stå i mappen til denne filen og kjør "mkdir Database"
+3. Kjør "initdb -E utf8 ./Database"
+4. Kjør "pg_ctl -D ./Database -l logfile start"
+5. Hvis du bruker IntelliJ, opprett en data source mot databasen (default port er 5432).
+6. Kjør filen "schema.sql" på databasen for å populere den.
