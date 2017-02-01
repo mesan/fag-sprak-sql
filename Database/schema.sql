@@ -12,4 +12,4 @@ CREATE TABLE Medlem (
 );
 
 INSERT INTO Person(id, navn) VALUES (1, 'Martin'), (2, 'Nanna'), (3, 'Marius');
-INSERT INTO MEDLEM(id, aktiv) VALUES (1, 0), (2, 1);
+INSERT INTO Medlem(id, aktiv) VALUES (1, 0), (2, 1);
