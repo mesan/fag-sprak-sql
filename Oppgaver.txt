@@ -1,12 +1,15 @@
 
 1. Slett alle ordrelinjer for inaktive medlemmer.
 
-2. Gi alle ordrelinjer for et medlem sortert på ordreID.
-   Hver ordrelinje skal ha et felt med antall kroner brukt hittil.
+2. Gi alle ordrelinjer for et medlem sortert på ordreID og ordrelinjeID.
+   Hver ordrelinje skal ha et felt med antall kroner brukt hittil (løpende).
 
-id antall enhetsPris kostnader
-1   2         10        20
-2   1         20        40
-3   3         5         55
-4   5         30        205
-5   1         150       355
+Fasit:
+
+navn    ordreid ordrelinjeid vareantall enhetspris kostnader
+Martin    1         1           2           50      100
+Martin    1         2           3           20      160
+Martin    2         3           1           1000    1160
+Nanna     3         4           5           150     750
+Nanna     3         5           6           200     1950
+Nanna     3         6           1           500     2450
