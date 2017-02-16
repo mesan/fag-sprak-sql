@@ -13,7 +13,7 @@ Nanna     3         4           5           150     750
 Nanna     3         5           6           200     1950
 Nanna     3         6           1           500     2450
 
-3. Gi en tabell med medlemsnavn og en kommaseparert liste med ordreIDer.
+3. Gi en tabell med medlemsnavn og en kommaseparert liste med ordrene til medlemmet.
 
 Fasit:
 
