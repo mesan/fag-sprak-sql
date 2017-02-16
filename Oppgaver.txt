@@ -1,0 +1,12 @@
+
+1. Slett alle ordrelinjer for inaktive medlemmer.
+
+2. Gi alle ordrelinjer for et medlem sortert på ordreID.
+   Hver ordrelinje skal ha et felt med antall kroner brukt hittil.
+
+id antall enhetsPris kostnader
+1   2         10        20
+2   1         20        40
+3   3         5         55
+4   5         30        205
+5   1         150       355
