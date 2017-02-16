@@ -21,3 +21,9 @@ navn     ordreIDer
 Martin      1,2
 Nanna       3
 
+4. Output denne tabellen:
+
+navn    ordreId1    ordreId2    ordreId3
+Martin     1           2          null
+Nanna      3          null        null
+Marius    null        null        null
