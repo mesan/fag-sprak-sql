@@ -1,8 +1,7 @@
-
 1. Slett alle ordrelinjer for inaktive medlemmer.
 
-2. Gi alle ordrelinjer for et medlem sortert på ordreID og ordrelinjeID.
-   Hver ordrelinje skal ha et felt med antall kroner brukt hittil (løpende).
+2. Gi alle ordrelinjer for medlemmer sortert på ordreID og ordrelinjeID.
+   Hver ordrelinje skal ha et felt med antall kroner brukt hittil av medlemmet (løpende).
 
 Fasit:
 
@@ -13,3 +12,12 @@ Martin    2         3           1           1000    1160
 Nanna     3         4           5           150     750
 Nanna     3         5           6           200     1950
 Nanna     3         6           1           500     2450
+
+3. Gi en tabell med medlemsnavn og en kommaseparert liste med ordreIDer.
+
+Fasit:
+
+navn     ordreIDer
+Martin      1,2
+Nanna       3
+
