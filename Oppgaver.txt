@@ -21,7 +21,7 @@ navn     ordreIDer
 Martin      1,2
 Nanna       3
 
-4. Output denne tabellen:
+4. Gi en tabell med rader som inneholder navn, samt første, andre og tredje ordreid for medlemmet:
 
 navn    ordreId1    ordreId2    ordreId3
 Martin     1           2          null
