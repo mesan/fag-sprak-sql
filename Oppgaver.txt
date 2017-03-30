@@ -23,7 +23,18 @@ Nanna       3
 
 4. Gi en tabell med rader som inneholder navn, samt første, andre og tredje ordreid for medlemmet:
 
+Fasit:
+
 navn    ordreId1    ordreId2    ordreId3
 Martin     1           2          null
 Nanna      3          null        null
 Marius    null        null        null
+
+5. Finn medlemmene som kjøpte en vare som de kunne fått til billigere pris hvis de hadde kjøpt den senere samme dag.
+   Dersom medlemmet kjøpte varen til den nye prisen den dagen, skal medlemmet ikke være med i resultatet.
+   Gi medlemsnavn, dato og antall varer det gjaldt denne dagen.
+
+Fasit:
+
+navn     dato        antall varer
+Marius   25.03.2017  7
