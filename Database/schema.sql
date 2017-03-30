@@ -52,11 +52,11 @@ INSERT INTO Vare (varenummer, versjon, varenavn, pris) VALUES
   (4, 1, 'Lue', 39);
 
 INSERT INTO OrdreLinje (id, ordreId, varenummer, vareversjon, antall) VALUES
-  (1, 1, 3, 1, 2), -- Sokker 49 17:00
-  (2, 2, 3, 3, 1), -- Sokker 39 18:00
-  (3, 2, 1, 2, 1), -- Genser 249 18:00
-  (4, 3, 2, 1, 5), -- Bukse 699 19:00
-  (5, 3, 3, 2, 6), -- Sokker 69 19:00
-  (6, 3, 4, 1, 1), -- Lue 39 19:00
-  (7, 4, 1, 1, 5), -- Genser 299 17:30
-  (7, 4, 3, 1, 2); -- Sokker 49 17:30
+  (1, 1, 3, 1, 2),
+  (2, 2, 3, 3, 1),
+  (3, 2, 1, 2, 1),
+  (4, 3, 2, 1, 5),
+  (5, 3, 3, 2, 6),
+  (6, 3, 4, 1, 1),
+  (7, 4, 1, 1, 5),
+  (7, 4, 3, 1, 2);
