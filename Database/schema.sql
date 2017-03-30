@@ -59,4 +59,4 @@ INSERT INTO OrdreLinje (id, ordreId, varenummer, vareversjon, antall) VALUES
   (5, 3, 3, 2, 6),
   (6, 3, 4, 1, 1),
   (7, 4, 1, 1, 5),
-  (7, 4, 3, 1, 2);
+  (8, 4, 3, 1, 2);

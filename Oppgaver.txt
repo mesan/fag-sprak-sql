@@ -6,12 +6,14 @@
 Fasit:
 
 navn    ordreid ordrelinjeid vareantall enhetspris kostnader
-Martin    1         1           2           50      100
-Martin    1         2           3           20      160
-Martin    2         3           1           1000    1160
-Nanna     3         4           5           150     750
-Nanna     3         5           6           200     1950
-Nanna     3         6           1           500     2450
+Martin    1         1           2           49      98
+Martin    1         2           1           39      137
+Martin    2         3           1           249     386
+Nanna     3         4           5           699     2995
+Nanna     3         5           6           69      3409
+Nanna     3         6           1           39      3448
+Marius    4         7           5           299     1495
+Marius    4         8           2           49      1593
 
 3. Gi en tabell med medlemsnavn og en kommaseparert liste med ordrene til medlemmet.
 
@@ -20,6 +22,7 @@ Fasit:
 navn     ordreIDer
 Martin      1,2
 Nanna       3
+Marius      4
 
 4. Gi en tabell med rader som inneholder navn, samt første, andre og tredje ordreid for medlemmet:
 
@@ -28,7 +31,7 @@ Fasit:
 navn    ordreId1    ordreId2    ordreId3
 Martin     1           2          null
 Nanna      3          null        null
-Marius    null        null        null
+Marius     4          null        null
 
 5. Finn medlemmene som kjøpte en vare som de kunne fått til billigere pris hvis de hadde kjøpt den senere samme dag.
    Dersom medlemmet kjøpte varen til den nye prisen den dagen, skal medlemmet ikke være med i resultatet.
